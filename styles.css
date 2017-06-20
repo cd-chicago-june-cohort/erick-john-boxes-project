@@ -1,0 +1,39 @@
+div {
+  width: 64px;
+  height: 64px;
+
+  /* display */
+    /* block -- takes full line */
+    /* inline -- share the line like text */
+    /* inline-block -- share the line, are still boxes */
+  display: inline-block;
+
+  /* margin (siblings pushing away from each other )*/
+  margin-right: 85px;
+
+  /* padding (parent adding space around children) */
+  padding: 0px;
+
+  /* trick for centering text */
+  text-align: center;  /* horizontal */
+  line-height: 64px;  /* vertical */
+
+
+
+
+  color: white;
+  font-size: 24px;
+}
+
+#box-1 {
+  background: purple;
+}
+#box-2 {
+  background: magenta;
+}
+#box-3 {
+  background: midnightblue;
+}
+#box-4 {
+  background: teal;
+}
